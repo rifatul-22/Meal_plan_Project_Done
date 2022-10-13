@@ -1,0 +1,650 @@
+/* common css section start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css section end  */
+/* nav css section start  */
+nav{
+    background-color: #ffece1;
+    box-shadow: 0px 1px 5px 4px rgba(146, 127, 116, 0.21);
+    z-index: 999;
+    position: relative;
+}
+nav .row{
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav .logo{
+    width: 10%;
+}
+nav .menu{
+    width: 65%;
+}
+nav .shop_cart{
+    width: 25%;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: center;
+}
+nav .menu ul li a{
+    display: inline-block;
+    color: #649483;
+    font-size: 19px;
+    text-transform: capitalize;
+    padding: 52px 21px;
+    transition: 0.5s;
+}
+nav .menu ul li a:hover{
+    color: #dd7017;
+}
+nav .shop_cart ul{
+    display: flex;
+}
+nav .shop_cart ul li a{
+    padding: 9px;
+    color: #649483;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+nav .shop_cart ul li a i{
+    font-size: 25px;
+}
+nav .shop_cart ul li .menu_btn{
+    background-color: #649483;
+    padding: 11px 9px;
+    color: #ffece1;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav .shop_cart ul li:hover .menu_btn{
+    background-color: #dd7017;
+}
+/* nav css section end  */
+/* Banner css section start  */
+#banner{
+    background: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#banner .shape{
+    position: absolute;
+}
+#banner .shape-1{
+    top: -110px;
+    left: -30px;
+    z-index: -1;
+}
+#banner .shape-2{
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#banner .banner_img{
+    width: 50%;
+}
+#banner .banner_content{
+    width: 50%;
+}
+#banner .banner_img img{
+    padding-top: 145px;
+    width: 100%;
+    margin-left: -95px;
+}
+#banner .banner_img h4{
+    margin-top: -55px;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #649483;
+    line-height: 2;
+}
+#banner .banner_img p{
+    font-size: 16px;
+    color: #649483;
+    text-transform: capitalize;
+    width: 360px;
+    /* margin: auto; */
+    text-align: center;
+}
+#banner .container .banner_content h2{
+   padding-top: 235px;
+   font-size: 100px;
+   font-weight: 700;
+   text-transform: capitalize;
+   color: #dd6f17; 
+}
+#banner .container .banner_content a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff4ee;
+    font-weight: 700;
+    border: 4px solid #649483;
+    background-color: #639383;
+    padding: 16px;
+    margin-right: 18px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+#banner .container .banner_content a:hover{
+    background-color: #ffebe1;
+    color: #639383;
+}
+#banner .container .meal_option{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dd6f17;
+    padding: 19px 21px;
+    margin-bottom: 140px;
+    border-radius: 25px;
+}
+#banner .container .meal_option .meal_iteam{
+    width: 25%;
+}
+#banner .container .meal_option .meal_iteam p{
+     font-size: 12px;
+     font-weight: 400;
+     text-transform: capitalize;
+     color: #ffece1;
+     text-align: center;
+}
+/* Banner css section end  */
+/* Our Favorite css section start  */
+#favorite{
+    background: #649483;
+    padding: 115px 0;
+}
+#favorite .title h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #ffebe1;
+}
+#favorite .title p{
+    font-size: 14px;
+    color: #ffebe1;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+#favorite .row .fav_iteam{
+    width: 30%;
+    background-color: #ffebe1;
+    margin: 0 14px;
+    padding: 70px 30px;
+    border-radius: 25px;
+}
+#favorite .row .fav_iteam h6{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #639383;
+} 
+#favorite .row .fav_iteam img{
+    padding: 36px 30px;
+}
+#favorite .row .fav_iteam p{
+    width: 232px;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    color: #639383;
+}
+/* Our Favorite css section end  */
+/* Meal Plan css section start  */
+#meal_plan{
+    background: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#meal_plan .meal_shap{
+    position: absolute;
+    top: 0;
+    left: -35px;
+    z-index: -1;
+}
+#meal_plan .meal_plan_img{
+    width: 40%;
+}
+#meal_plan .meal_plan_content{
+    width: 60%;
+    padding-left: 78px;
+}
+#meal_plan .meal_plan_img img{
+    width: 100%;
+    height: 780px;
+    padding-top: 116px;
+}
+#meal_plan .meal_plan_content h6{
+    padding-top: 193px;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #639383;
+}
+#meal_plan .meal_plan_content h2{
+    font-size: 80px;
+    color: #dd7017;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+}
+#meal_plan .meal_plan_content p{
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #639383;
+    width: 600px;
+    margin-bottom: 50px;
+}
+#meal_plan .meal_plan_content .meal_plan_content_img{
+    display: flex;
+    flex-wrap: wrap;
+}
+#meal_plan .meal_plan_content .meal_plan_content_img .meal_plan_content_iteam{
+    width: 50%;
+}
+#meal_plan .meal_plan_content .meal_plan_content_img .meal_plan_content_iteam a{
+    display: inline-block;
+    margin-top: -120px;
+    color: #fff4ee;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #639383;
+    padding: 16px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+/* Meal Plan css section end  */
+/* Recipes css section start  */
+#recipes{
+    background-color: #ffebe1;
+    padding: 114px 0;
+    position: relative;
+    z-index: 1;
+}
+#recipes .recipes_shape{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#recipes .recipes_content{
+    width: 60%;
+}
+#recipes .recipes_img{
+    width: 40%;
+}
+#recipes .recipes_content h6{
+    font-size: 19px;
+    font-weight: 700;
+    color: #639383;
+    text-transform: uppercase;
+}
+#recipes .recipes_content h2{
+    color: #dd6f17;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#recipes .recipes_content .recipes_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+#recipes .recipes_content .recipes_container .recipes_iteam{
+    width: 50%;
+}
+#recipes .recipes_content .recipes_container .recipes_iteam a{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff4ee;
+    background-color: #639383;
+    padding: 16px;
+    border-radius: 15px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+#recipes .recipes_img img{
+    width: 100%;
+}
+/* Recipes css section end  */
+/* Process css section start  */
+#process{
+    background-color: #649483;
+    padding: 117px 0;
+    position: relative;
+    z-index: 999;
+}
+#process .arrow{
+    width: 25px;
+    height: 10px;
+    margin: auto;
+}
+#process .process_title h2{
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffece1;
+    text-transform: capitalize;
+}
+#process .process_title p{
+    font-size: 19px;
+    color: #ffece1;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+#process .process_iteam{
+    width: 28%;
+    background-color: #ffebe1;
+    margin: 0 20px;
+    padding: 40px 22px;
+    border-radius: 10px;
+}
+#process .process_iteam h4{
+    font-size: 29px;
+    font-weight: 700;
+    color: #dd6f17;
+    text-transform: capitalize;
+    text-align: center;
+}
+#process .process_iteam img{
+    padding: 70px 80px;
+}
+#process .process_iteam p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #dd7017;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* Process css section end  */
+/* Meal Plan_2 css section start  */
+#meal_plan_2{
+    position: relative;
+    z-index: 1;
+}
+#meal_plan_2 .shape-3{
+    position: absolute;
+    top: -280px;
+    bottom: 0;
+    z-index: -1;
+}
+#meal_plan_2 .meal_plan_2_content{
+    width: 50%;
+    /* padding-top: 240px;
+    padding-bottom: 290px;
+    padding-left: 136px; */
+    padding: 240px 0 290px 136px;
+}
+#meal_plan_2 .meal_plan_2_content h2{
+    font-size: 100px;
+    color: #dd6f17;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 44px;
+}
+#meal_plan_2 .meal_plan_2_content p{
+    width: 600px;
+    color: #639383;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+#meal_plan_2 .meal_plan_2_content a{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff4ee;
+    background-color: #639383;
+    text-transform: uppercase;
+    padding: 16px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: 4px solid #639383;
+    transition: 0.5s;
+}
+#meal_plan_2 .meal_plan_2_content a:hover{
+    background-color: #ffece1;
+    color: #639383;
+}
+#meal_plan_2 .meal_plan_2_img{
+    background-color: #dd6f17;
+    width: 410px;
+    margin-left: 267.5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+#meal_plan_2 .meal_plan_2_img .meal_ab{
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    right: 112px;
+    width: 40%;
+    z-index: -1;
+    width: 500px;
+}
+#meal_plan_2 .meal_plan_2_img .meal_plan_2_img_content{
+    text-align: center;
+    width: 160px;
+    margin: auto;
+    padding-top: 90px;
+}
+#meal_plan_2 .meal_plan_2_img .meal_plan_2_img_content img{
+    margin-left: 100px;
+}
+#meal_plan_2 .meal_plan_2_img .meal_plan_2_img_content p{
+    color: #ffece1;
+    padding-top: 10px;
+}
+/* Meal Plan_2 css section end  */
+/* Reviow css section start  */
+#review{
+    background-color: #639383;
+    padding-bottom: 170px;
+    position: relative;
+    z-index: 999;
+}
+#review .review_title h2{
+    padding-top: 100px;
+    font-size: 80px;
+    color: #ffece1;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 105px;
+}
+#review .review_content{
+    display: flex;
+}
+#review .review_content .review_iteam{
+    width: 33.33%;
+    text-align: center;
+}
+#review .review_content .review_iteam h6{
+    padding-top: 35px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff4ee;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+#review .review_content .review_iteam p{
+    width: 315px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #ffece1;
+}
+/* Reviow css section end  */
+/* Meal Plan_3 css section start  */
+#meal_plan_3{
+    background-color: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#meal_plan_3 .left_img{
+    position: absolute;
+    bottom: 72px;
+}
+#meal_plan_3 .right_img{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+#meal_plan_3 .left_shape{
+    position: absolute;
+    top: -380px;
+    left: 0;
+    z-index: -1;
+}
+#meal_plan_3 .right_shape{
+    position: absolute;
+    top: -85px;
+    right: 80px;
+    z-index: -1;
+}
+#meal_plan_3 .meal_plan_3_content{
+    text-align: center;
+    padding-top: 360px;
+    padding-bottom: 283px;
+}
+#meal_plan_3 .meal_plan_3_content h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #dd6f17;
+}
+#meal_plan_3 .meal_plan_3_content p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #639383;
+    width: 605px;
+    margin: auto;
+}
+#meal_plan_3 .meal_plan_3_content a{
+    margin-top: 36px;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff4ee;
+    background-color: #639383;
+    text-transform: uppercase;
+    padding: 16px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: 4px solid #639383;
+    transition: 0.5s;
+}
+#meal_plan_3 .meal_plan_3_content a:hover{
+    background-color: #ffece1;
+    color: #639383;
+}
+/* Meal Plan_3 css section end  */
+/* footer css section start  */
+#footer{
+    background-color: #639383;
+}
+#footer .footer_iteam .footer_content{
+    display: flex;
+}
+#footer .footer_iteam{
+    padding-top: 180px;
+    padding-bottom: 136px;
+    margin: 0 50px;
+}
+#footer .footer_iteam h6{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffece1;
+    margin-bottom: 31px;
+}
+#footer .footer_iteam ul li{
+    font-size: 18px;
+    color: #ffece1;
+    line-height: 2.5;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+#footer .footer_iteam ul li:hover{
+    text-decoration: underline;
+}
+#footer .footer_iteam p{
+    font-size: 17px;
+    color: #ffece1;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#footer .footer_iteam input{
+    display: block;
+    width: 300px;
+    padding: 13px;
+    outline: none;
+    border: 3px solid #ffece1;
+    background-color: #639383;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+#footer .footer_iteam input::placeholder{
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #ffece1;
+    padding-left: 5px;
+}
+#footer .footer_iteam input:last-child{
+    width: 105px;
+    padding: 15px;
+    background-color: #ffece1;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: #639383;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 125px;
+}
+#footer .copyright .copy_text p{
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffece1;
+    text-transform: capitalize;
+}
+#footer .copyright .icone i{
+    color: #ffece1;
+    font-size: 25px;
+    margin: 0 9px;
+}
+/* footer css section end  */
